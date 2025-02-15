@@ -20,7 +20,7 @@ def main():
         print(f"Result: {result}")
 
     except ValueError:
-        print("Uncorrect numbers!")
+        print("Uncorrect numbers! ")
 
 if name == "main":
     main()
