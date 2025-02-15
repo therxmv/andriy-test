@@ -1,4 +1,4 @@
-from calculator import add, subtract
+from calculator import add, subtract, multiply, divide, power
 
 def main():
    
@@ -11,6 +11,8 @@ def main():
             result = add(num1, num2)
         elif operation == "-":
             result = subtract(num1, num2)
+        elif operation == "^":
+            result = power(num1, num2)
         else:
             print("Unknown operation!")
             return
